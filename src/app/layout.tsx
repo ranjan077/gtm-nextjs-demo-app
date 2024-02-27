@@ -17,6 +17,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+          </script>
           <script
           dangerouslySetInnerHTML={{
             __html: `
