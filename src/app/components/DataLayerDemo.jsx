@@ -1,11 +1,10 @@
-import { useEffect } from "react"
-
+"use client"
 const DataLayerDemo = () => {
     const onLoginClick = () => {
         if(window.dataLayer) {
             dataLayer.push({
                 event: 'login',
-                type: 'buttonclick'
+                login_type: 'buttonclick'
             })
         }
     }
