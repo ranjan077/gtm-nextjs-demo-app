@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import ClickMeBtn from '../components/clickMe'
 import AddToCart from '../components/AddToCart'
 import DataLayerDemo from '../components/DataLayerDemo'
+import Link from 'next/link'
 
 const Home = () => {
     useEffect(() => {
@@ -13,6 +14,9 @@ const Home = () => {
         <ClickMeBtn />
         <AddToCart />
         <DataLayerDemo />
+        <div>
+            <Link href="/">back</Link>
+        </div>  
     </>
 }
 
