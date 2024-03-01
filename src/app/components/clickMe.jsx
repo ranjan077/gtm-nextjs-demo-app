@@ -1,6 +1,11 @@
 
 const ClickMeBtn = () => {
-    return <button id="changebg">Click me to change bg color</button>
+    const handleBackGroundChange = () => {
+        window?.dataLayer?.push({
+            event: 'toggle-bg'
+        })
+    }
+    return <button id="changebg" onClick={handleBackGroundChange}>Click me to change bg color</button>
 }
 
 export default ClickMeBtn
