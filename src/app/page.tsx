@@ -1,16 +1,20 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import ClickMeBtn from './components/clickMe'
-import AddToCart from './components/AddToCart'
-import DataLayerDemo from './components/DataLayerDemo'
+import Link from 'next/link'
 
-export default function Home() {
+export default function Landing() {
   return (
     <>
-      <h1>Main page</h1>
-      <ClickMeBtn />
-      <AddToCart />
-      <DataLayerDemo />
+      <nav>
+        <ul>
+          <li>
+            <Link href="/home">Home</Link>
+          </li>
+          <li>
+            <Link href="/product">Product</Link>
+          </li>
+        </ul>
+      </nav>
     </>
   )
 }
