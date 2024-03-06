@@ -34,7 +34,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>{children}</body>
       <footer>
-        <button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Settings</button>
+        <button id="ot-sdk-btn" className="ot-sdk-show-settings">Cookie Settings</button>
       </footer>
     </html>
   )
