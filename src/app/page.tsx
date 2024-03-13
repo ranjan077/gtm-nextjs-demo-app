@@ -12,6 +12,7 @@ export default function Landing() {
             <Link href="/product">Product</Link>
           </li>
         </ul>
+        <iframe src="https://gtm-nextjs-thirparty-ap.vercel.app" title='third-party-site'></iframe>
       </nav>
     </>
   )
