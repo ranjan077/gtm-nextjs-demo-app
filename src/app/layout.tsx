@@ -20,6 +20,7 @@ export default function RootLayout({
           <script>
             window.dataLayer = window.dataLayer || [];
           </script>
+          <script src="https://gtm-nextjs-thirparty-ap.vercel.app/test.js"></script>
           <script
           dangerouslySetInnerHTML={{
             __html: `
