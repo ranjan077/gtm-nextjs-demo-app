@@ -10,7 +10,7 @@ const Footer = () => {
     }, [])
     return <div>
          { isClient && 
-         <a href="#cookies settings" className={`ot-sdk-show-settings ${styles.cookiesettings}`}>Your Privacy Choices</a> 
+         <button id="ot-sdk-btn" className="ot-sdk-show-settings" style={{ width: "150px"}}>Cookie Settings</button>
         }
     </div>
 }

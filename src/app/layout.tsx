@@ -20,7 +20,14 @@ export default function RootLayout({
           <script>
             window.dataLayer = window.dataLayer || [];
           </script>
-          <script src="https://gtm-nextjs-thirparty-ap.vercel.app/test.js" defer></script>
+
+          <script type="text/javascript" src="https://cdn.cookielaw.org/consent/018de5d3-65a9-7207-ab0f-ac3316a94fc4-test/OtAutoBlock.js"></script>
+          <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="018de5d3-65a9-7207-ab0f-ac3316a94fc4-test" ></script>
+          <script type="text/javascript">
+          function OptanonWrapper() { }
+          </script>
+
+          <script src="https://gtm-nextjs-thirparty-ap.vercel.app/test.js" ></script>
           <script
           dangerouslySetInnerHTML={{
             __html: `
